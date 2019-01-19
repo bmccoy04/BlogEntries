@@ -8,7 +8,7 @@
     ::::
 --->
 
-# About this blog
+# How I built this site
 
 So, here it is. My first blog post.  I don’t really know what I’m doing and that will become very apparent as we move along.  For my first post I will actually talk about this site.  Over the course of a way to long of a period of time I have built this site.  It started as an example for a tech talk and has turned into something that is nice and easy to work with. The site as a whole uses some interesting technology.  From the site being built in [.Net Core](https://dotnet.microsoft.com/) to being deployed with [Docker](https://www.docker.com/) images to Linux servers.  So let's get started.
 <!--- End Preview --->
@@ -39,7 +39,7 @@ All of the code in this app is deployed via a [Docker](https://www.docker.com/) 
 
 So I landed on [Digital Ocean](https://www.digitalocean.com).  I play around in Linux environments a lot and their blog posts really help me out.  They also had a premade [Docker](https://www.docker.com/) Droplet.  A Droplet just seems to be a pre-made VM.  They build the Droplet using best practices for whatever type you choose.  So I had my app up and running in no time.  Also, the price couldn’t be beat.  I am able to run my app with no issues on their lowest tier service.  I like cheap and easy.
 
-# Deployment!
+# Deployment
 
 This is the worst part, and usually where my apps go to die.  I’m pretty good about getting the app up and running the first time.  So for this system I wanted to follow best practices as closely as possible.  First off, I wanted a full CI/CD suite.  Surprisingly [Azure DevOps](https://devops.azure.com) managed to do everything I needed to do.  A lot of the things I have done have started out as examples for a talk I have given.  This is no different.  They say [Azure DevOps](https://devops.azure.com) can do anything.  So I have a [.Net Core](https://dotnet.microsoft.com/) app, stored in [github](https://www.github.com), built into a [Docker](https://www.docker.com/) image, the image stored in [Docker](https://www.docker.com/) Hub, and deployed to a [Digital Ocean](https://www.digitalocean.com) Linux server.  After a weekend of trial and error, and maybe a little extra complexity added to proved a point, I have a system I am very happy with.  Again, blog post incoming. 
 
