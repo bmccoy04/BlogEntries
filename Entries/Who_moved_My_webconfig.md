@@ -50,8 +50,8 @@ So the hardcoded url... If we ever wanted to change this we would literally have
 ---
 .Net Core really embraces dependency injection.  It also provides us with a service we can inject in to help us get configuration values.  Our app is actually configured to use the appsetting.json files, and IConfiguration service already.  This is provided to us in the WebHost.CreateDefaultBuilder method in Program.cs.  So all we have to do is enter our value in the appsettings.json file and inject the configuration service.
 
-``` json
 Appsettings.json
+``` json
 {
   "Logging": {
     "IncludeScopes": false,
