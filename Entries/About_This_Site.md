@@ -8,7 +8,7 @@
     ::::
 --->
 
-# How I built this site
+## How I built this site
 
 So, here it is. My first blog post.  I don’t really know what I’m doing and that will become very apparent as we move along.  For my first post I will actually talk about this site.  Over the course of a way to long of a period of time I have built this site.  It started as an example for a tech talk and has turned into something that is nice and easy to work with. The site as a whole uses some interesting technology.  From the site being built in [.Net Core](https://dotnet.microsoft.com/) to being deployed with [Docker](https://www.docker.com/) images to Linux servers.  So let's get started.
 <!--- End Preview --->
