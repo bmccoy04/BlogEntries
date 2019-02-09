@@ -16,7 +16,7 @@ So, why do I TDD?  I’m not going to get preachy here, if you don’t write uni
 
 Now let's get to the code.  We will start with getting our testing framework setup, then we will start writing some simple tests, and discuss additional tools that are available to us.  We want the barrier to entry to be as low as possible.  People don’t tend to adopt things they see as a nuisance. 
 
-<!-- End Preview -->
+<!--- End Preview --->
 
 ## WHERE TO PUT OUR TEST
 ---
