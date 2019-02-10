@@ -10,9 +10,9 @@
 
 ## Why do you TDD?
 
-So, the app is coming along now.  Because of a previous post, we now have a basic structure for configuring the app.  But I still feel like we are missing something.  Something very important to me.  Unit Tests!  I am a fan of TDD (test driven development).  You couldn’t tell that form this app, well, because there aren’t any.  I have a bad habit of not writing test in my proof of concept apps.  However, TDD is something I practice in my professional work.
+So, the app is coming along now.  Because of a previous post, we now have a basic structure for configuring the app.  But I still feel like we are missing something.  Something very important to me.  Unit Tests!  I am a fan of TDD (test driven development).  You couldn’t tell that from this app, well, because there aren’t any.  I have a bad habit of not writing test in my proof of concept apps.  However, TDD is something I practice in my professional work.
 
-So, why do I TDD?  I’m not going to get preachy here, if you don’t write unit test then that is fine.  I am not a traditionalist, in a sense.  I write unit test to make my life easier.  I don’t like having to run my application whenever I want to test if some logic actually does what it is supposed to do.  Also, I don’t want to have to set up my data to create a certain scenario for the same reason.  It honestly helps me write cleaner code.  Basically if my class, method, function, or whatever isn’t testable, then it probably isn’t written well. 
+So, why do I TDD?  I’m not going to get preachy here.  If you don’t write unit test, that is fine.  I am not a traditionalist, in a sense.  I write unit test to make my life easier.  I don’t like having to run my application whenever I want to test if some logic actually does what it is supposed to do.  Also, I don’t want to have to set up my data to create a certain scenario for the same reason.  It honestly helps me write cleaner code.  Basically if my class, method, function, or whatever isn’t testable, then it probably isn’t written well. 
 
 Now let's get to the code.  We will start with getting our testing framework setup, then we will start writing some simple tests, and discuss additional tools that are available to us.  We want the barrier to entry to be as low as possible.  People don’t tend to adopt things they see as a nuisance. 
 
