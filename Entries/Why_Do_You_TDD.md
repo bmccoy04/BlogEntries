@@ -82,7 +82,7 @@ namespace CoreBlogger.Tests
 
 Again, nothing fancy here.  Just a plain class with an Xunit reference, System reference, and a class with a single method decorated with a “Fact” attribute.  
 
-> I found this link https://xunit.github.io/docs/comparisons that has a wonderful class attribute compassion if you are familiar with other frameworks.  I typically write tests using MSTest, so I found this very helpful.
+> I found this link https://xunit.github.io/docs/comparisons that has a wonderful class attribute comparison if you are familiar with other frameworks.  I typically write tests using MSTest, so I found this very helpful.
 
 So we have see this test pass, lets make it fail… You know, for science.  We will change the UnitTest1 class to look like:
 
