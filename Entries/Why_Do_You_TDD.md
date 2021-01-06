@@ -114,12 +114,12 @@ So I’ve made a test class in my current test project.  CoreBlogger.Tests > Cor
 
 We have the class now we need to test something.  As of now we have two methods, the constructor and Handle.  We want to test both, they both get called when the app uses this class.
 
-> In my exploration of xUnit I see that they do not like the “Setup” and “Teardown” of tests.  Since we are using their framework will won’t use that, we will just setup and teardown in our test methods.  They explain why, but we won’t get into that right now.
+> In my exploration of xUnit I see that they do not like the “Setup” and “Teardown” of tests.  Since we are using their framework we won’t use that, we will just setup and teardown in our test methods.  They explain why, but we won’t get into that right now.
 
 ## CONSTRUCTOR TEST
 ---
 
-So we write our first test.  We want to make sure that when we construct a new handler we actually get a new handler.  Easy enough, however… The constructor requires two classed.  We will need an instance of ILogger and ICachedGitHubEntryProvider.  So, let’s find a tool to help us “mock” those.  We are not writing integration tests, so we don’t need our actual implementations of those classes.  We want a fake one that we can control so that way we can test specific behaviors. Enter Moq!
+So we write our first test.  We want to make sure that when we construct a new handler we actually get a new handler.  Easy enough, however… The constructor requires two classes.  We will need an instance of ILogger and ICachedGitHubEntryProvider.  So, let’s find a tool to help us “mock” those.  We are not writing integration tests, so we don’t need our actual implementations of those classes.  We want a fake one that we can control so that way we can test specific behaviors. Enter Moq!
 
 So now we have: 
 
